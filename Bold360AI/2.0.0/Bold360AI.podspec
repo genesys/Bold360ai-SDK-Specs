@@ -35,7 +35,7 @@ s.ios.deployment_target  = '9.0'
 s.pod_target_xcconfig = { 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO' }
 
 # Private Pod frameworks
-s.dependency 'BoldEngine'
-s.dependency 'BoldUI'
+s.dependency 'BoldEngine', '2.3.3'
+s.dependency 'BoldUI', '2.1.0'
 
 end
