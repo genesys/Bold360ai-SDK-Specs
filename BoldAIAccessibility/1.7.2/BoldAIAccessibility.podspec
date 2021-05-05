@@ -11,7 +11,7 @@ s.homepage         = 'https://github.com/nanorepsdk/NanorepUI/wiki'
 s.license = 'private'
 s.author           = 'bold360ai'
 s.source = {
-    "http" => "https://dl.bintray.com/nanorep/Specs/BoldAIAccessibility_version_1.7.2_commit_ca2010e4271ed65fb4237ce57bd541c5670457b1.zip"
+    "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/ios/prod/BoldAIAccessibility_version_1.7.2_commit_ca2010e4271ed65fb4237ce57bd541c5670457b1.zip"
 }
 s.vendored_frameworks = 'BoldAIAccessibility.framework'
 s.requires_arc = true
