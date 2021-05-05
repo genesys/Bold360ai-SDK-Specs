@@ -12,7 +12,7 @@ s.homepage         = 'https://github.com/nanorepsdk/NanorepUI/wiki'
 s.license = 'private'
 s.author           = 'BoldCore'
 s.source = {
-    "http" => "https://dl.bintray.com/nanorep/Specs/BoldCore_version_v3.5.0_commit_97c939c846870eaaf386c675e4f58063644c3e47.zip"
+    "http" => "https://bold360ai-mobile-artifacts.s3.amazonaws.com/ios/prod/BoldCore_version_v3.5.0_commit_97c939c846870eaaf386c675e4f58063644c3e47.zip"
 }
 s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
