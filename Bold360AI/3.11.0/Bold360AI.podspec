@@ -43,7 +43,7 @@ s.subspec 'Core' do |sp|
 
   # Private Pod frameworks
   sp.dependency 'BoldAIEngine', '1.10.0'
-  sp.dependency 'BoldAIAccessibility', '1.7.3'
+  sp.dependency 'BoldAIAccessibility', '1.8.0'
   sp.dependency 'BoldEngine', '2.5.0'
   sp.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO'}
   sp.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
